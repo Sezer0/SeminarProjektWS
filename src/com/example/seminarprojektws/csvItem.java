@@ -24,7 +24,7 @@ public class csvItem {
 		this.employeeType = employeeType;
 		this.function = function;
 		this.validUntil = validUntil;
-		this.eMail =eMail;
+		this.eMail = eMail;
 		
 	}
 	

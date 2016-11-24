@@ -18,7 +18,7 @@ public  class CSVReader {
     }   
 
     public static ArrayList<String> staedteReader()  {
-		String staedteFile = "/Users/Daniel_Hanke/Desktop/staedte.csv";
+		String staedteFile = "/Users/Daniel_Hanke/Desktop/Universität/Wirtschaftsinformatik/Semester3/Projektseminar/QuellenFürEclipse/staedte.csv";
 		BufferedReader bufferedReader = null;
 		String lineStaedte = ";";
 		String cvsStaedteSplitBy = ";";
@@ -53,7 +53,7 @@ public  class CSVReader {
     
 	public static ArrayList<csvItem> userListReader(){
     	
-    	String csvFile = "/Users/Daniel_Hanke/Desktop/HR.csv";
+    	String csvFile = "/Users/Daniel_Hanke/Desktop/Universität/Wirtschaftsinformatik/Semester3/Projektseminar/QuellenFürEclipse/HR.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ";";

@@ -2,6 +2,7 @@ package com.example.seminarprojektws;
 
 import java.util.ArrayList;
 
+import uk.ac.shef.wit.simmetrics.similaritymetrics.BlockDistance;
 import uk.ac.shef.wit.simmetrics.similaritymetrics.Levenshtein;
 import uk.ac.shef.wit.simmetrics.similaritymetrics.Soundex;
 
@@ -11,6 +12,11 @@ public class Algorithm {
 	 ArrayList<ArrayList<Float>> algorithmsArray = new ArrayList<ArrayList<Float>>();
 	 Soundex soundex = new Soundex ();
 	 Levenshtein levenshtein = new Levenshtein();
+	 BlockDistance blockDistance = new BlockDistance();
+	 
+	 String v =blockDistance.getLongDescriptionString();
+	 
+	 System.out.println("FICKEN");
 	
 	 
 	 ArrayList<Float> soundexarray = new ArrayList<Float>();
